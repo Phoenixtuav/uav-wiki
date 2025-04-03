@@ -16,7 +16,7 @@ plugins:
 - search
 # 目录结构可参考 https://github.com/squidfunk/mkdocs-material/blob/047d56bf50c7fac2db39ea868e443d32043f9fda/mkdocs.yml#L183
 nav:
-  - 关于本项目: 关于本项目.md
+  - 关于本项目: index.md
   - 赛事与赛道介绍:
     - 2024年:
       - "赛事与赛道介绍/2024/2024.5 中国机器人大赛暨RoboCup中国赛.md"
