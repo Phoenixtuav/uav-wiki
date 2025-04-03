@@ -3,3 +3,29 @@ site_name: UAV-Wiki
 site_url: https://phoenixtuav.github.io/uav-wiki
 theme:
   name: material
+  language: zh
+  # logo: assets/logo.png
+  # favicon: images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+plugins:
+- search
+# 目录结构可参考 https://github.com/squidfunk/mkdocs-material/blob/047d56bf50c7fac2db39ea868e443d32043f9fda/mkdocs.yml#L183
+nav:
+  - 关于本项目: 关于本项目.md
+  - 赛事与赛道介绍:
+    - 2024年:
+      - "赛事与赛道介绍/2024/2024.5 中国机器人大赛暨RoboCup中国赛.md"
+      - "赛事与赛道介绍/2024/2024.7 睿抗机器人开发者大赛.md"
+      - "赛事与赛道介绍/2024/2024.7 中国机器人及人工智能大赛.md"
+      - "赛事与赛道介绍/2024/2024.10 中国机器人大赛暨RoboCup中国赛.md"
+    - 2025年:
+      - "赛事与赛道介绍/2025/2025.7 睿抗机器人开发者大赛.md"
+      - "赛事与赛道介绍/2025/2025.7 中国机器人及人工智能大赛.md"
+      # - "赛事与赛道介绍/2025/"
+  - 任务模块开源:
+    - "任务模块开源.md"
