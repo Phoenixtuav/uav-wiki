@@ -14,10 +14,14 @@ theme:
     - search.share
 plugins:
 - search
+markdown_extensions:
+  - admonition
 # 目录结构可参考 https://github.com/squidfunk/mkdocs-material/blob/047d56bf50c7fac2db39ea868e443d32043f9fda/mkdocs.yml#L183
 # 官方教程 https://squidfunk.github.io/mkdocs-material/setup/
 nav:
-  - 关于本项目: index.md
+  - 关于本项目: 
+    - index.md
+    - 如何参与.md
   - 赛事与赛道介绍:
     - 2024年:
       - "赛事与赛道介绍/2024/2024.5 中国机器人大赛暨RoboCup中国赛.md"
@@ -28,5 +32,16 @@ nav:
       - "赛事与赛道介绍/2025/2025.7 睿抗机器人开发者大赛.md"
       - "赛事与赛道介绍/2025/2025.7 中国机器人及人工智能大赛.md"
       # - "赛事与赛道介绍/2025/"
-  - 任务模块开源:
-    - "任务模块开源.md"
+  - 简易开源代码:
+    - "简易开源代码/index.md"
+    - 仿真环境的部署:
+      - "简易开源代码/仿真环境的部署/Ubuntu系统安装.md"
+      - "简易开源代码/仿真环境的部署/ROS安装与基础学习.md"
+      - "简易开源代码/仿真环境的部署/MAVROS安装.md"
+      - "简易开源代码/仿真环境的部署/PX4仿真环境安装.md"
+      #- "简易开源代码/仿真环境的部署/激光雷达 MID-360.md"
+      - "简易开源代码/仿真环境的部署/深度相机 D435.md"
+    - 简易飞行模块使用:
+      - "简易开源代码/简易飞行模块使用/如何起飞降落.md"
+      - "简易开源代码/简易飞行模块使用/定点飞行.md"
+      - "简易开源代码/简易飞行模块使用/跟踪识别圆.md"
